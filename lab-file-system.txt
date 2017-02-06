@@ -163,4 +163,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
-Command and flag
+Command tells the computer to do something, flag specifys how a command is run. and prompt is Whenever you see a line in these slides prefixed with a $, that means that we’re typing something in at the prompt.
