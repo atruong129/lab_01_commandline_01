@@ -17,7 +17,11 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Adlm			Downloads		New Unity Project	isus
+Adobe			Library			Pictures		mtec1003
+Applications		MPLABXProjects		Public			pymel.log
+Desktop			Movies			Things			test.rb
+Documents		Music			ipe.properties		xgen
 
 
 ==========
@@ -27,12 +31,13 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+Nothing
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
+Desktop/   Documents/ Downloads/ 
 
 
 
@@ -40,7 +45,7 @@ What happens?  Describe it below.
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -49,9 +54,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
+Ableton
+Adobe
 ==========
 4.  Type:
 
@@ -60,7 +64,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.			Adobe			MuseLog.txt		eagle
+..			Arduino			Pro Tools		iChats
 
 ==========
 5.  Type:
@@ -70,6 +75,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
+-bash: syntax error near unexpected token `<'
 
 
 ==========
@@ -79,7 +85,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+-bash: syntax error near unexpected token `<'
 
 
 ==========
@@ -89,7 +95,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Nothing
 
 
 ==========
@@ -101,35 +107,33 @@ Copy and paste the output below.
 ----------
 
 
-
+ls: doesnotexist: No such file or directory
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+<TAB> AND <ENTER>
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
-----------
-
-
+<TAB> AND THEN <ENTER>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+<UP> AND <DOWN>
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+(list all, including hidden, files in Desktop):
 
 
 ==========
@@ -139,7 +143,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: syntax error near unexpected token `newline'
 
 
 ==========
@@ -149,7 +153,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+-bash: syntax error near unexpected token `<'
 
 
 ==========
@@ -159,3 +163,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+Command and flag
