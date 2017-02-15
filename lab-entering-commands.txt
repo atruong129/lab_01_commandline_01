@@ -54,8 +54,22 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-Ableton
-Adobe
+drwxr-xr-x   6 student  staff  204 Jan 17 17:39 Ableton
+drwxrwxrwx  10 student  staff  340 Aug 22 14:56 Adobe
+drwxr-xr-x   3 student  staff  102 Aug 22 14:57 Arduino
+drwxrwxrwx   3 student  staff  102 Jan 17 17:17 Avid Projects
+drwxr-xr-x   4 student  staff  136 Aug 22 15:05 Fritzing
+drwxr-xr-x   2 student  staff   68 Aug 22 15:10 MATLAB
+drwxr-xr-x   9 student  staff  306 Aug 22 15:11 Max 7
+-rw-r--r--   1 student  staff  714 Jan 17 17:07 MuseLog.txt
+drwxr-xr-x  14 student  staff  476 Jan 17 17:30 Pro Tools
+drwxr-xr-x   7 student  staff  238 Jan 17 17:30 Processing
+drwxr-xr-x   2 student  staff   68 Aug 22 15:15 REAPER Media
+drwxr-xr-x   9 student  staff  306 Jan 17 17:34 Smaart v8
+drwxr-xr-x  15 student  staff  510 Feb  8 20:18 Temporary Work
+drwxr-xr-x   2 student  staff   68 Aug 22 15:03 eagle
+-rw-r--r--   1 student  staff    0 Aug 22 14:23 iChats
+drwxr-xr-x   3 student  staff  102 Aug 22 14:58 maya
 ==========
 4.  Type:
 
@@ -64,8 +78,9 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-.			Adobe			MuseLog.txt		eagle
-..			Arduino			Pro Tools		iChats
+.			Arduino			Processing
+..			Avid Projects		REAPER Media
+
 
 ==========
 5.  Type:
@@ -75,7 +90,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
--bash: syntax error near unexpected token `<'
+ls -a Documents
 
 
 ==========
@@ -85,7 +100,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
--bash: syntax error near unexpected token `<'
+ls -l Documents
 
 
 ==========
@@ -95,7 +110,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-Nothing
+ls /Volumes/
 
 
 ==========
@@ -118,7 +133,7 @@ ls: doesnotexist: No such file or directory
 10.  Name two flags that we used in this exercise.
 ----------
 
-<TAB> AND <ENTER>
+-a, -l, -t
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
@@ -127,14 +142,14 @@ ls: doesnotexist: No such file or directory
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-<UP> AND <DOWN>
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-(list all, including hidden, files in Desktop):
 
+Documents
 
 ==========
 14.  Type:
@@ -143,7 +158,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
--bash: syntax error near unexpected token `newline'
+-bash: foo: command not found
 
 
 ==========
@@ -153,7 +168,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
--bash: syntax error near unexpected token `<'
+-bash: foo: command not found
 
 
 ==========
@@ -163,4 +178,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
-Command tells the computer to do something, flag specifys how a command is run. and prompt is Whenever you see a line in these slides prefixed with a $, that means that we’re typing something in at the prompt.
+the command is ls, the flag is -a, argument is Desktop, and prompt is $
