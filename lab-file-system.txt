@@ -32,7 +32,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 5. Type:
@@ -43,7 +43,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals
 
 ==========
 6. Type:
@@ -54,7 +54,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals	food
 
 ==========
 7. Type:
@@ -65,7 +65,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals	foo	food
 
 ==========
 8. Type:
@@ -76,7 +76,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -87,7 +87,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar
 
 ==========
 10. Type:
@@ -98,7 +98,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -109,7 +109,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 12. Type:
@@ -120,7 +120,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+drwxr-xr-x  3 student  staff  102 Feb 15 15:59 foo
+drwxr-xr-x  2 student  staff   68 Feb 15 15:59 food
 
 
 ==========
@@ -132,7 +133,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student
 
 ==========
 14. Type:
@@ -142,7 +143,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -154,7 +155,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+-bash: cd: /unknown_folder: No such file or directory
 
 ==========
 15. Type:
@@ -164,7 +165,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -175,12 +176,13 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+ent-v314-002.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+pwd 
+/Users/student/mtec1002
 
 
 ==========
@@ -204,14 +206,14 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 19. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -220,7 +222,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+drwxr-xr-x  2 student  staff   68 Feb 15 16:09 aardvark
 
 ==========
 21. Make 3 directories nested within each other:
@@ -232,7 +234,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -240,7 +242,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo/bar/baz
 
 ==========
 23. Change your directory so that you're two directories up (foo)
@@ -248,43 +250,44 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd ../..
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
-
+ls -a
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+cd ~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+A pathname is the general form of the name of a file or directory; it specifies a unique location in a file system.
 
 ==========
 29. What's a directory?
 ----------
+a directory is a cataloging structure on a file system that references other files (and directories)
 
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/students/Downloads
